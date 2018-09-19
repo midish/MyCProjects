@@ -1,4 +1,6 @@
 # School21
 Некоторые проекты из Школы 21.
 
-COMING SOON!
+Sudoku - В РАЗРАБОТКЕ!
+EvalExpr - COMING SOON!
+BSQ - COMING SOON!
