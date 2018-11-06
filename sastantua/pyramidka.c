@@ -10,32 +10,28 @@ void    ft_putchar(char c)
 
 void    pyramidka(int size)
 {
-    int row;
     int i;
+    int weight;
+    int j;
 
-    if(size <= 0)
+    i = 1;
+    weight = 1;
+    while(i <= size)
     {
-       return ;
-    }
-    else if(size > 0)
-    {
-        row = 1;
-        while(row <= size)
+        j = 0;
+        while(j < weight)
         {
-            i = 1;
-            while(i <= row)
-            {
-                ft_putchar('A');
-                i++;
-            }
-            ft_putchar('\n');
-            row++;
+            ft_putchar('A');
+            j++;
         }
+        weight = weight + 2;
+        ft_putchar('\n');
+        i++;
     }
 }
 
 void    main(void)
 {  
     printf("Vvedite visoty piramidki: \n");
-    pyramidka(3);
+    pyramidka(5);
 }
