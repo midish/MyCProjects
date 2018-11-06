@@ -13,13 +13,23 @@ void    pyramidka(int size)
     int i;
     int weight; // Ширина строки в символах
     int j;
+    int space;
+    int x;
 
+    x = space;
     i = 1;
     weight = 1;
     // Общий цикл который печатает уровни пирамиды, начиная с первого
     while(i <= size)
     {
+        space = size - i;
         j = 0;
+        // Цикл ставящий пробелы
+        while(space > 0)
+        {
+            ft_putchar(' ');
+            space--;
+        }
         // Цикл выводит кол-во символов на строке
         while(j < weight)
         {
