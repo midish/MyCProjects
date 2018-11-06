@@ -10,13 +10,11 @@ void    ft_putchar(char c)
 
 void    pyramidka(int size)
 {
-    int i;
+    int i; // Ряд
     int weight; // Ширина строки в символах
     int j;
-    int space;
-    int x;
+    int space; // Пробелы перед символами
 
-    x = space;
     i = 1;
     weight = 1;
     // Общий цикл который печатает уровни пирамиды, начиная с первого
@@ -46,7 +44,7 @@ void    main(void)
 {  
     int value;
 
-    printf("Vvedite visoty piramidki: ");
+    printf("Vvedite visoty pyramidki: ");
     scanf("%d", &value);
     pyramidka(value);
 }
