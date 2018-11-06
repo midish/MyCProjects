@@ -34,6 +34,9 @@ void    pyramidka(int size)
 
 void    main(void)
 {  
-    printf("Vvedite visoty piramidki: \n");
-    pyramidka(5);
+    int value;
+
+    printf("Vvedite visoty piramidki: ");
+    scanf("%d", &value);
+    pyramidka(value);
 }
