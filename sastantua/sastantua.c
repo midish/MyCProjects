@@ -8,12 +8,34 @@ void    ft_putchar(char c)
     write(1, &c, 1);
 }
 
+int     strvalue(int level)
+{
+    int i;
+    int count;
+
+    i = 0;
+    count = 0;
+    while(i < level)
+    {
+        count = (3 + i) + count;
+        i++;
+    }
+}
 void    sastantua(int size)
 {
-    while(size > 0)
+    int stage;
+    int row;
+
+    stage = 1; // Начинаем с перевого этажа
+    row = 1; // Ряд
+    // Главные цикл, который ходит по этажам
+    while(stage <= size)
     {
-        
-        size--;
+        while(row <= strvalue(size))
+        {
+
+        }
+        row++;
     }
 }
 
