@@ -8,6 +8,7 @@ void    ft_putchar(char c)
     write(1, &c, 1);
 }
 
+// Эта фун-ция определяет кол-во строк на этаже
 int     strvalue(int level)
 {
     int i;
@@ -23,7 +24,7 @@ int     strvalue(int level)
 }
 void    sastantua(int size)
 {
-    int stage;
+    int stage; 
     int row;
 
     stage = 1; // Начинаем с перевого этажа
