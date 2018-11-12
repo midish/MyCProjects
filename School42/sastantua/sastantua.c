@@ -99,10 +99,15 @@ void    sastantua(int size)
 	}
 }
 
-int	    main(int argc, char *argv[])
-{
-	if (argc < 2)
-		return 0;
+// int	    main(int argc, char *argv[])
+// {
+// 	if (argc < 2)
+// 		return 0;
 
-	sastantua(atoi(argv[1]));
+// 	sastantua(atoi(argv[1]));
+// }
+
+int		main(void)
+{
+	sastantua(3);
 }
