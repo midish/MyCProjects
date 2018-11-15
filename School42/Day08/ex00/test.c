@@ -24,6 +24,7 @@ static int	ft_wordcount(char *s)
 	return (w);
 }
 
+// Функция считает слину слова
 static int	ft_wordlen(char *s)
 {
 	int		i;
