@@ -45,13 +45,10 @@ int     multiplicationMinMax(int *array, int size)
     {
         numbers[i] = array[i];
     }
-    for (int y = 0; y < size; y++)
-    {
-        if (numbers[y] < min)
-            min = numbers[y];
-    }
     for (int j = 0; j < size; j++)
     {
+        if (numbers[j] < min)
+            min = numbers[j];
         if (numbers[j] > max)
             max = numbers[j];
     }
