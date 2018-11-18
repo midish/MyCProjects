@@ -5,5 +5,5 @@ typedef struct s_point
 {
     int x;
     int y;
-}   t_point; // t_point это переменная типа int, для неё выделена память
+}   t_point; // t_point это переменная типа struct s_point, для неё выделена память
 #endif
